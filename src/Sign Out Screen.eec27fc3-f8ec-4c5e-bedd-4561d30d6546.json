@@ -38,22 +38,43 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
-        "TabNavigatorIcon": {},
-        "DrawerNavigationOptions": {},
-        "StackNavigationOptions": {
-            "headerStyle": {}
-        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
-        "isSimple": true,
-        "navigationOptions": {
-            "headerStyle": {}
-        },
-        "tabNavigationOptions": {}
+        "isSimple": true
     },
     "children": [
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -1,
+                "ParentId": "eec27fc3-f8ec-4c5e-bedd-4561d30d6546",
+                "Y": 633,
+                "RelativeX": -1,
+                "RelativeY": 633,
+                "position": "absolute",
+                "edgeOffsets": 633,
+                "style": {
+                    "position": "absolute",
+                    "left": "35.86666666666667%",
+                    "top": "85.72666791604198%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "9a838037-52cd-4a2b-8292-dd4992324645",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner3"
+        },
         {
             "type": "Group",
             "label": "Group",
@@ -101,7 +122,6 @@
                             "color": "rgba(0, 0, 0, 1)",
                             "fontSize": 16,
                             "fontStyle": "normal",
-                            "textShadowOffset": {},
                             "letterSpacing": 0,
                             "textDecorationLine": "none",
                             "textDecorationStyle": "solid",
@@ -275,10 +295,10 @@
                 "Height": 29,
                 "Width": 33,
                 "Visible": true,
-                "X": 115,
-                "Y": 341,
-                "RelativeX": 115,
-                "RelativeY": 341,
+                "X": 113,
+                "Y": 333,
+                "RelativeX": 113,
+                "RelativeY": 333,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -309,7 +329,7 @@
                 "Disabled": false,
                 "ParentId": "4fdd1110-7461-497b-8f84-d44d7a02e113",
                 "position": "absolute",
-                "edgeOffsets": 341
+                "edgeOffsets": 333
             },
             "children": [],
             "id": "2c4bcfe0-8eac-43cf-86e7-8977c420abe0",
@@ -332,15 +352,14 @@
                 "Width": 98,
                 "Visible": true,
                 "X": 11,
-                "Y": 303,
+                "Y": 283,
                 "RelativeX": 11,
-                "RelativeY": 303,
+                "RelativeY": 283,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -375,7 +394,7 @@
                 },
                 "ParentId": "eec27fc3-f8ec-4c5e-bedd-4561d30d6546",
                 "position": "absolute",
-                "edgeOffsets": 303,
+                "edgeOffsets": 283,
                 "children": "No Favorite Color"
             },
             "children": [],
@@ -657,7 +676,6 @@
                     "color": "rgba(0, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -736,7 +754,6 @@
                     "top": "3.8605697151424287%",
                     "display": "flex"
                 },
-                "capInsets": {},
                 "ParentId": "4fdd1110-7461-497b-8f84-d44d7a02e113",
                 "position": "absolute",
                 "edgeOffsets": -1.7763568394002505e-15
@@ -761,9 +778,9 @@
                 "Width": 311,
                 "Visible": true,
                 "X": 31,
-                "Y": 487,
+                "Y": 467,
                 "RelativeX": 31,
-                "RelativeY": 487,
+                "RelativeY": 467,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -794,7 +811,7 @@
                 "Disabled": false,
                 "ParentId": "eec27fc3-f8ec-4c5e-bedd-4561d30d6546",
                 "position": "absolute",
-                "edgeOffsets": 487
+                "edgeOffsets": 467.99999999999994
             },
             "children": [],
             "id": "cc113988-f5ab-4709-aadb-e642cbe4bbb0",
@@ -815,9 +832,9 @@
                 "Width": 311,
                 "Visible": true,
                 "X": 31,
-                "Y": 428,
+                "Y": 413,
                 "RelativeX": 31,
-                "RelativeY": 428,
+                "RelativeY": 413,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -848,7 +865,7 @@
                 "Disabled": false,
                 "ParentId": "eec27fc3-f8ec-4c5e-bedd-4561d30d6546",
                 "position": "absolute",
-                "edgeOffsets": 428.00000000000006
+                "edgeOffsets": 413
             },
             "children": [],
             "id": "3e6cdfdd-ce21-474f-a14b-3c9b87ce3b69",
@@ -866,19 +883,18 @@
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(255, 0, 0, 1)",
-                "Height": 115,
-                "Width": 313,
+                "Height": 69,
+                "Width": 315,
                 "Visible": true,
-                "X": 31,
-                "Y": 550,
-                "RelativeX": 31,
-                "RelativeY": 550,
+                "X": 30,
+                "Y": 519,
+                "RelativeX": 30,
+                "RelativeY": 519,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(255, 0, 0, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
-                    "textShadowOffset": {},
                     "letterSpacing": 0,
                     "textDecorationLine": "none",
                     "textDecorationStyle": "solid",
@@ -913,7 +929,7 @@
                 },
                 "ParentId": "eec27fc3-f8ec-4c5e-bedd-4561d30d6546",
                 "position": "absolute",
-                "edgeOffsets": 550,
+                "edgeOffsets": 519,
                 "children": ""
             },
             "children": [],
