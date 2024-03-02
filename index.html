@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Front End</title>
+    <style>
+        /* CSS styles for the banner */
+        .banner {
+            background-color: #ffffff;
+            padding: 5px; /* Adjust the padding value as needed */
+            text-align: center;
+        }
+
+        /* CSS styles for the user profiles */
+        .profile {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* CSS styles for the profile pictures */
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        /* CSS styles for the logo */
+        .banner img {
+            width: 200px; /* Adjust the width value as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="./owengram%20logo.png" alt="Logo"></img>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script>
+        // Initialize Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyDNP0K5TXry_3eAOjTUBBJ8BexXp2OAPsE",
+            authDomain: "cloudfunctionstestdb.firebaseapp.com",
+            databaseURL: "https://cloudfunctionstestdb-default-rtdb.firebaseio.com",
+            projectId: "cloudfunctionstestdb",
+            storageBucket: "cloudfunctionstestdb.appspot.com",
+            messagingSenderId: "608666094441",
+            appId: "1:608666094441:web:b10ddbba9609fa0a208bf8",
+            measurementId: "G-BNSYSNZ79M"
+        };
+    </script>
+
+    <iframe src="https://thunkable.site/w/71ZDzv7g7r9RJAQeXrTZY" width="100%" height="500px"></iframe>
+
+    <div id="userProfiles">
+        <div class="profile">
+            <div class="profile-content">
+                <p class="email">owenc740@uri.edu</p>
+                <p class="name">Owen Cunnie</p>
+                <p class="age">19</p>
+                <p class="state">Rhode Island</p>
+                <p class="fav-color">Green</p>
+                <img class="profile-picture" src="https://res.cloudinary.com/do2jimmhr/image/upload/v1709414825/v6n2q9mt4vsekwxf9wof.jpg" alt="User 1">
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profile-content">
+                <p class="email">owencunnie@gmail.com</p>
+                <p class="name">John Doe</p>
+                <p class="age">30</p>
+                <p class="state">Texas</p>
+                <p class="fav-color">Blue</p>
+                <img class="profile-picture" src="https://res.cloudinary.com/do2jimmhr/image/upload/v1709415020/aav5tvihrqy998lxtz3o.jpg" alt="User 1">
+            </div>
+        </div>
+    </div>
